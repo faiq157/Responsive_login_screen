@@ -1,0 +1,144 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.body_container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+    
+}
+.gradient_container{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    background: rgb(31,36,0);
+    background-image: linear-gradient(45deg, rgb(33, 216, 17) 19%, rgb(169, 216, 68) 49%, rgba(0,255,226,1) 100%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.body_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content_text{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;   
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+        
+}
+.content_text h1{
+    font-size: 36px;
+    text-align: start;
+    padding: 20px;
+    
+   
+}
+img{
+    width: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.input_conent{
+    box-shadow: 5px 5px 10px #d3c2c2;
+    padding: 30px;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+
+.text_IN{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+input{
+    margin: 10px;;
+    padding: 10px;
+    width: 100%;
+}
+label{
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Rem_For{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn>button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(31,36,0);
+    background-image: linear-gradient(45deg, rgb(33, 216, 17) 19%, rgb(169, 216, 68) 49%, rgba(0,255,226,1) 100%);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+.btn>button:hover{
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    box-shadow: 5px 5px 15px #f3e0e0,5px 5px 15px #d3c2c2;
+    
+}
+.btn_google{
+    display: flex;
+    justify-content: center;
+}
+.btn_google>button:hover{
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    box-shadow: 5px 5px 15px #f3e0e0,5px 5px 15px #d3c2c2;
+    
+}
+.btn_google>button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+}
+hr{
+    margin: 15px;
+}
+.hr_tage>p{
+    position: absolute;
+    margin:-10px 230px;
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width:800px) {
+    .body_container{
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .body_container{
+        flex-direction: column;
+    }
+  }
